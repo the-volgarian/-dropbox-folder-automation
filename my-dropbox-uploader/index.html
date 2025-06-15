@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vite + Dropbox Upload</title>
+ <link rel="stylesheet" href="/styles.css">
+</head>
+<div id="toast-container" class="toast-container"></div>
+<body>
+  <div class="dfd-orderpanel-container">
+    <div class="logo-contianer">
+      <img src="./public/ddd1.png" alt="" height="50">
+      <h2>DFD OREDER PANNEL</h2>
+    </div>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th>Order</th>
+            <th>Client</th>
+            <th>Date</th>
+            <th>Save as PDF</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>5020</td>
+            <td>13/06/2025</td>
+            <td>
+              <img id="save-btn" src="./public/dropbox-logo.png" height="20" alt="">
+              <pre id="status"></pre>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
